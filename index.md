@@ -2,6 +2,7 @@
 
 Her kan du finde navnene på dem jeg spiller med.
 
+Hvis du gerne vil med på listen, så send dit Gamertag på min email <a href="mailto:emilh@me.com?subject='Gamertag til din hjemmeside'">emilh @ me . com</a>.
 
 ## Minecraft
 
