@@ -20,3 +20,13 @@ Hvis du gerne vil med på listen, så send dit Gamertag på min email <a href="m
     </li>
   {% endfor %}
 </ul>
+
+
+<table>
+{% for member in site.data.gamers %}
+  <tr>
+    <td>{% member.Navn %}</td>
+    <td>{% member.Tag ‰}</td>
+  </tr>
+{% endfor %}
+</table>
