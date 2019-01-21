@@ -25,8 +25,8 @@ Hvis du gerne vil med på listen, så send dit Gamertag på min email <a href="m
 <table>
 {% for member in site.data.gamers %}
   <tr>
-    <td>{{ member.Navn }}</td>
-    <td>{{ member.Tag  }}</td>
+    <td>{{ member.name }}</td>
+    <td>{{ member.tag  }}</td>
   </tr>
 {% endfor %}
 </table>
