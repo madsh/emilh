@@ -23,6 +23,14 @@ Hvis du gerne vil med på listen, så send dit Gamertag på min email <a href="m
 
 
 <table>
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>Navn</th>
+      <th>Gamertag</th>
+    </tr>
+  </thead>
+  <tbody>
 {% for member in site.data.gamers %}
   <tr>
     <td><img width="32" src="{{ member.tag }}.png"/></td>
@@ -30,4 +38,5 @@ Hvis du gerne vil med på listen, så send dit Gamertag på min email <a href="m
     <td><code class="highlighter-rouge">{{ member.tag  }}</code></td>
   </tr>
 {% endfor %}
+  </tbody>
 </table>
